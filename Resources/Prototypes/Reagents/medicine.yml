@@ -787,6 +787,7 @@
 
 - type: reagent
   id: Synaptizine
+  contrabandSeverity: Class2
   name: reagent-name-synaptizine
   group: Medicine
   desc: reagent-desc-synaptizine

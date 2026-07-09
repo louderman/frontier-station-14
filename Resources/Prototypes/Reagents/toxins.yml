@@ -1,5 +1,6 @@
 - type: reagent
   id: Toxin
+  contrabandSeverity: Class2
   name: reagent-name-toxin
   group: Toxins
   desc: reagent-desc-toxin
@@ -21,6 +22,7 @@
 
 - type: reagent
   id: CarpoToxin
+  contrabandSeverity: Class2
   name: reagent-name-carpotoxin
   group: Toxins
   desc: reagent-desc-carpotoxin
@@ -47,6 +49,7 @@
 
 - type: reagent
   id: ChloralHydrate
+  contrabandSeverity: Class2
   name: reagent-name-chloral-hydrate
   group: Toxins
   desc: reagent-desc-chloral-hydrate
@@ -79,6 +82,7 @@
 
 - type: reagent
   id: GastroToxin
+  contrabandSeverity: Class2
   name: reagent-name-gastrotoxin
   group: Toxins
   desc: reagent-desc-gastrotoxin
@@ -120,6 +124,7 @@
 
 - type: reagent
   id: PolytrinicAcid
+  contrabandSeverity: Class2
   name: reagent-name-polytrinic-acid
   group: Toxins
   desc: reagent-desc-polytrinic-acid
@@ -167,6 +172,7 @@
 
 - type: reagent
   id: FerrochromicAcid
+  contrabandSeverity: Class2
   name: reagent-name-ferrochromic-acid
   group: Toxins
   desc: reagent-desc-ferrochromic-acid
@@ -188,6 +194,7 @@
 
 - type: reagent
   id: FluorosulfuricAcid
+  contrabandSeverity: Class2
   name: reagent-name-fluorosulfuric-acid
   group: Toxins
   desc: reagent-desc-fluorosulfuric-acid
@@ -228,6 +235,7 @@
 
 - type: reagent
   id: SulfuricAcid
+  contrabandSeverity: Class2
   name: reagent-name-sulfuric-acid
   group: Toxins
   desc: reagent-desc-sulfuric-acid
@@ -276,6 +284,7 @@
 
 - type: reagent
   id: UnstableMutagen
+  contrabandSeverity: Class2
   name: reagent-name-unstable-mutagen
   group: Toxins
   desc: reagent-desc-unstable-mutagen
@@ -297,6 +306,7 @@
 
 - type: reagent
   id: HeartbreakerToxin
+  contrabandSeverity: Class2
   name: reagent-name-heartbreaker-toxin
   group: Toxins
   desc: reagent-desc-heartbreaker-toxin
@@ -315,6 +325,7 @@
 
 - type: reagent
   id: Lexorin
+  contrabandSeverity: Class3Syndicate
   name: reagent-name-lexorin
   group: Toxins
   desc: reagent-desc-lexorin
@@ -330,6 +341,7 @@
 
 - type: reagent
   id: MindbreakerToxin
+  contrabandSeverity: Class2
   name: reagent-name-mindbreaker-toxin
   group: Toxins
   desc: reagent-desc-mindbreaker-toxin
@@ -351,6 +363,7 @@
 
 - type: reagent
   id: Histamine
+  contrabandSeverity: Class2
   name: reagent-name-histamine
   group: Toxins
   desc: reagent-desc-histamine
@@ -419,6 +432,7 @@
 
 - type: reagent
   id: Amatoxin
+  contrabandSeverity: Class2
   name: reagent-name-amatoxin
   group: Toxins
   desc: reagent-desc-amatoxin
@@ -451,6 +465,7 @@
 
 - type: reagent
   id: Romerol
+  contrabandSeverity: Class3Syndicate
   name: reagent-name-romerol
   group: Toxins
   desc: reagent-desc-romerol
@@ -554,6 +569,7 @@
 
 - type: reagent
   id: Pax
+  contrabandSeverity: Class2
   name: reagent-name-pax
   group: Narcotics
   desc: reagent-desc-pax
@@ -570,6 +586,7 @@
 
 - type: reagent
   id: Honk
+  contrabandSeverity: Class2
   name: reagent-name-honk
   group: Toxins
   desc: reagent-desc-honk
@@ -599,6 +616,7 @@
 
 - type: reagent
   id: Lead
+  contrabandSeverity: Class2
   name: reagent-name-lead
   group: Toxins
   desc: reagent-desc-lead
@@ -615,6 +633,7 @@
 
 - type: reagent
   id: Bungotoxin
+  contrabandSeverity: Class2
   name: reagent-name-bungotoxin
   group: Toxins
   desc: reagent-desc-bungotoxin
@@ -631,6 +650,7 @@
 
 - type: reagent
   id: Vestine
+  contrabandSeverity: Class3Syndicate
   name: reagent-name-vestine
   group: Toxins
   desc: reagent-desc-vestine
@@ -654,6 +674,7 @@
 
 - type: reagent
   id: Tazinide
+  contrabandSeverity: Class3Syndicate
   name: reagent-name-tazinide
   group: Toxins
   desc: reagent-desc-tazinide
@@ -668,6 +689,7 @@
 
 - type: reagent
   id: Lipolicide
+  contrabandSeverity: Class2
   name: reagent-name-lipolicide
   group: Toxins
   desc: reagent-desc-lipolicide
@@ -691,6 +713,7 @@
 # poisons non-spiders and slows you down at high doses
 - type: reagent
   id: Mechanotoxin
+  contrabandSeverity: Class2
   name: reagent-name-mechanotoxin
   group: Toxins
   desc: reagent-desc-mechanotoxin

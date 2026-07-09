@@ -15,6 +15,7 @@
 
 - type: reagent
   id: Thermite
+  contrabandSeverity: Class2
   name: reagent-name-thermite
   parent: BasePyrotechnic
   desc: reagent-desc-thermite
@@ -37,6 +38,7 @@
 
 - type: reagent
   id: Napalm
+  contrabandSeverity: Class2
   name: reagent-name-napalm
   parent: BasePyrotechnic
   desc: reagent-desc-napalm
@@ -66,6 +68,7 @@
 
 - type: reagent
   id: Phlogiston
+  contrabandSeverity: Class2
   name: reagent-name-phlogiston
   parent: BasePyrotechnic
   desc: reagent-desc-phlogiston
@@ -95,6 +98,7 @@
 
 - type: reagent
   id: ChlorineTrifluoride
+  contrabandSeverity: Class3General
   name: reagent-name-chlorine-trifluoride
   parent: BasePyrotechnic
   desc: reagent-desc-chlorine-trifluoride
@@ -183,6 +187,7 @@
 
 - type: reagent
   id: Fluorosurfactant
+  contrabandSeverity: Class2
   name: reagent-name-fluorosurfactant
   parent: BasePyrotechnic
   desc: reagent-desc-fluorosurfactant

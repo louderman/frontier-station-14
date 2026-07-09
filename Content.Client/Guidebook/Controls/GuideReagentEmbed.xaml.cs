@@ -213,19 +213,18 @@ public sealed partial class GuideReagentEmbed : BoxContainer, IDocumentTag, ISea
 
         if (_config.GetCVar(CCVars.ContrabandExamine))
         {
-            // Department-restricted text
+            if (reagent.ContrabandSeverity != null &&
+                _prototype.Resolve(reagent.ContrabandSeverity.Value, out var severity))
+            {
+                description.PushNewline();
+                description.AddMarkupPermissive(Loc.GetString(severity.ExamineText, ("type", ContrabandItemType.Reagent)));
+            }
+
             if (reagent.AllowedJobs.Count > 0 || reagent.AllowedDepartments.Count > 0)
             {
                 description.PushNewline();
                 description.AddMarkupPermissive(
                     _contraband.GenerateDepartmentExamineMessage(reagent.AllowedDepartments, reagent.AllowedJobs, ContrabandItemType.Reagent));
-            }
-            // Other contraband text
-            else if (reagent.ContrabandSeverity != null &&
-                     _prototype.Resolve(reagent.ContrabandSeverity.Value, out var severity))
-            {
-                description.PushNewline();
-                description.AddMarkupPermissive(Loc.GetString(severity.ExamineText, ("type", ContrabandItemType.Reagent)));
             }
         }
 

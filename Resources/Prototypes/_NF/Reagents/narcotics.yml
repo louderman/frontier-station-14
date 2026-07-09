@@ -55,6 +55,7 @@
 
 - type: reagent
   id: ShroomMix
+  contrabandSeverity: Class1
   name: reagent-name-shroom-mix
   group: Narcotics
   desc: reagent-desc-shroom-mix

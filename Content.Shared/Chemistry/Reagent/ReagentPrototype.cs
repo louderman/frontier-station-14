@@ -61,7 +61,6 @@ namespace Content.Shared.Chemistry.Reagent
 
         /// <summary>
         ///     The degree of contraband severity this reagent is considered to have.
-        ///     If AllowedDepartments or AllowedJobs are set, they take precedent and override this value.
         /// </summary>
         [DataField]
         public ProtoId<ContrabandSeverityPrototype>? ContrabandSeverity = null;

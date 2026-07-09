@@ -30,6 +30,7 @@
 
 - type: reagent
   id: NFZombieBiteToxin
+  contrabandSeverity: Class3General
   name: reagent-name-zombie-bite-toxin
   group: Toxins
   desc: reagent-desc-zombie-bite-toxin

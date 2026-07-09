@@ -45,6 +45,7 @@
 
 - type: reagent
   id: BuzzochloricBees
+  contrabandSeverity: Class2
   name: reagent-name-buzzochloric-bees
   group: Toxins
   desc: reagent-desc-buzzochloric-bees
@@ -155,6 +156,7 @@
 
 - type: reagent
   id: Licoxide
+  contrabandSeverity: Class2
   name: reagent-name-licoxide
   group: Toxins
   desc: reagent-desc-licoxide
@@ -169,6 +171,7 @@
 
 - type: reagent
   id: Razorium
+  contrabandSeverity: Class2
   name: reagent-name-razorium
   group: Toxins
   slipData:
@@ -302,6 +305,7 @@
 
 - type: reagent
   id: Laughter
+  contrabandSeverity: Class1
   name: reagent-name-laughter
   group: Special
   desc: reagent-desc-laughter

@@ -1,5 +1,6 @@
 - type: reagent
   id: Desoxyephedrine
+  contrabandSeverity: Class2
   name: reagent-name-desoxyephedrine
   group: Narcotics
   desc: reagent-desc-desoxyephedrine
@@ -57,6 +58,7 @@
 
 - type: reagent
   id: Ephedrine
+  contrabandSeverity: Class2
   name: reagent-name-ephedrine
   group: Narcotics
   desc: reagent-desc-ephedrine
@@ -110,6 +112,7 @@
 
 - type: reagent
   id: Stimulants
+  contrabandSeverity: Class3Syndicate
   name: reagent-name-stimulants
   group: Narcotics
   desc: reagent-desc-stimulants
@@ -183,6 +186,7 @@
 
 - type: reagent
   id: THC
+  contrabandSeverity: Class1
   name: reagent-name-thc
   group: Narcotics
   desc: reagent-desc-thc
@@ -219,6 +223,7 @@
 # TODO: Replace these nonstandardized effects with generic brain damage
 - type: reagent
   id: Impedrezene
+  contrabandSeverity: Class2
   name: reagent-name-impedrezene
   group: Narcotics
   desc: reagent-desc-impedrezene
@@ -247,6 +252,7 @@
 
 - type: reagent
   id: SpaceDrugs
+  contrabandSeverity: Class1
   name: reagent-name-space-drugs
   group: Narcotics
   desc: reagent-desc-space-drugs
@@ -264,6 +270,7 @@
 
 - type: reagent
   id: Bananadine
+  contrabandSeverity: Class1
   name: reagent-name-bananadine
   group: Narcotics
   desc: reagent-desc-bananadine
@@ -282,6 +289,7 @@
 # Probably replace this one with sleeping chem when putting someone in a comatose state is easier
 - type: reagent
   id: Nocturine
+  contrabandSeverity: Class3Syndicate
   name: reagent-name-nocturine
   group: Narcotics
   desc: reagent-desc-nocturine
@@ -303,6 +311,7 @@
 
 - type: reagent
   id: MuteToxin
+  contrabandSeverity: Class3Syndicate
   name: reagent-name-mute-toxin
   group: Narcotics
   desc: reagent-desc-mute-toxin
@@ -322,6 +331,7 @@
 
 - type: reagent
   id: NorepinephricAcid
+  contrabandSeverity: Class2
   name: reagent-name-norepinephric-acid
   group: Narcotics
   desc: reagent-desc-norepinephric-acid
@@ -366,6 +376,7 @@
 
 - type: reagent
   id: TearGas
+  contrabandSeverity: Class2
   name: reagent-name-tear-gas
   group: Narcotics
   desc: reagent-desc-tear-gas
@@ -422,6 +433,7 @@
 
 - type: reagent
   id: Happiness
+  contrabandSeverity: Class1
   name: reagent-name-happiness
   group: Narcotics
   desc: reagent-desc-happiness
